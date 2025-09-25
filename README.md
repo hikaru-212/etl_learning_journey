@@ -2,11 +2,12 @@
 *A Hands-on ETL Learning Journey*
 
 > 🚧 **Status Note (狀態說明)**:  
-> This project is in its **early development phase** (currently focusing on Stage 0 & Stage 1).  
-> Documents and code are being added step by step. Structure may change frequently.  
+> Stage 0 (Why MVP) has been completed ✅, and the project is now moving into Stage 1 (File-based MVP).  
+> Documents and code will continue to be added step by step. Structure may change frequently.  
 >  
-> 本專案正處於積極開發的早期階段（目前專注於 Stage 0 與 Stage 1）。  
-> 文件與程式將逐步補上，架構可能會頻繁變動。  
+> Stage 0（為什麼要從 MVP 開始）已完成 ✅，專案目前正邁向 Stage 1（檔案型 MVP）。  
+> 文件與程式會持續補上，架構可能會頻繁變動。  
+
 
 ---
 
@@ -28,7 +29,7 @@ I see data engineering as built around two essential layers:
 ---
 
 ## Project Stages
-- **Stage 0: Why MVP (Mindset) (in progress)** → Lessons learned from over-ambition → importance of starting small.  
+- **Stage 0: Why MVP (Mindset) ✅** → [docs/learning_journey/en/stage0_mindset.md](./docs/learning_journey/en/stage0_mindset.md)  
 - **Stage 1: Core MVP (File-based) (in progress)** → Prove a minimal ETL flow is viable using only files.  
 - **Stage 2: Database Integration & Modularity (planned)** → Transition to database-driven ETL and split code into modular components.  
 - **Stage 3: Enablers — Validation & Reliability (planned)** → Add data validation, idempotency, and logging for robustness.  
@@ -39,7 +40,7 @@ I see data engineering as built around two essential layers:
 
 ## Roadmap
 
-- [ ] Stage 0: Why MVP 
+- [x] Stage 0: Why MVP (documented in [docs/learning_journey/en/stage0_mindset.md](./docs/learning_journey/en/stage0_mindset.md))  
 - [ ] Stage 1: File-based MVP  
 - [ ] Stage 2: Database integration  
 - [ ] Stage 3: Data validation + idempotency  
@@ -60,11 +61,11 @@ flowchart LR
 ---
 
 ## Planned Development 
-This repository is still in its very early stage.  
-At the moment, there is **no working pipeline yet** — the focus so far has been on documenting the philosophy and staging plan.  
 
-Upcoming milestones: 
-- Document the motivation and lessons in **Stage 0: Why MVP (Mindset)**  
+As of **September 2025**, Stage 0 (Why MVP) has been completed and documented.  
+The immediate next milestone is **Stage 1: Core MVP (File-based)**.  
+
+Upcoming milestones:  
 - Build the first local MVP pipeline (file-based)  
 - Migrate outputs into a database (Postgres)  
 - Add validation, idempotent writes, and logging  
@@ -72,9 +73,7 @@ Upcoming milestones:
 - Experiment with scaling to larger datasets  
 - Prepare for eventual migration to a cloud data warehouse  
 
-The long-term goal is to evolve this into a **cloud-ready data pipeline**,  
-while keeping the philosophy of logical, minimal, and purposeful design.
-
+The long-term goal is to evolve this into a **cloud-ready data pipeline**, while keeping the philosophy of logical, minimal, and purposeful design.
 
 ---
 
@@ -96,7 +95,7 @@ I hope this repo provides a reference point — and maybe the encouragement to s
 
 My first project successfully demonstrated the concept of an ETL pipeline. However, upon completion, I realized that most of the code was provided by AI. Although I understood what the code did, I lacked the 'implementation fluency' that only comes from building it yourself. 
 
-This second iteration is my attempt to bridge the gap between conceptual understanding and true internalization.The **core insights and frameworks remain the same**, as they came from genuine problem-solving. But now, I'm translating them into cleaner code and deeper technical understanding.
+This second iteration is my attempt to bridge the gap between conceptual understanding and true internalization. The **core insights and frameworks remain the same**, as they came from genuine problem-solving. But now, I'm translating them into cleaner code and deeper technical understanding.
 
 This second iteration focuses on:  
 - Translating my architectural understanding into cleaner code  
@@ -116,5 +115,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 ### Connect with me
-- LinkedIn: [YenhuaChen's LinkedIn](https://www.linkedin.com/in/yh-Chen-data)
+- LinkedIn: [Yenhua Chen's LinkedIn](https://www.linkedin.com/in/yh-Chen-data)
 

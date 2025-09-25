@@ -20,7 +20,7 @@ But unlike how many treat AI—as a passive generator of code or text—I used i
 
 ---
 
-## 2. AI as a Conversational Encyclopedia
+## 2. AI as a Conversational Encyclopedia 
 I approached AI not as a static encyclopedia, but as an interactive one.  
 Instead of copy-pasting answers, I treated it like a mentor for dialogue:  
 
@@ -76,9 +76,12 @@ The distinction between Core and Enabler is not absolute. As projects scale, tea
 ## 5. Project Staging Philosophy
 Each stage in the project is designed to illustrate a **specific learning milestone**:
 
-- **Stage 0: Why MVP** (to be documented in `learning_journey/stage0_mindset.md`)
+- **Stage 0: Why MVP** → [docs/learning_journey/en/stage0_mindset.md](./learning_journey/en/stage0_mindset.md)
+
 
   👉 Goal: Explain the motivation for starting with a Minimum Viable Product (MVP).
+
+  👉 Outcome: Clarify why building a minimal version first avoids overengineering and ensures fast iteration.
 
 - **Stage 1: Core MVP (in progress)**  
   👉 Goal: Prove that a minimal ETL flow is viable using only files.  
@@ -95,10 +98,12 @@ Each stage in the project is designed to illustrate a **specific learning milest
 - **Stage 5: Scaling & ELT Comparison (planned)**  
   👉 Goal: Benchmark ETL vs ELT under larger data volumes to evaluate trade-offs.  
 
+*(Outcome will be added for each stage after completion, starting with Stage 1 and beyond.)*
+
 ---
 
 ## 6. Why Local ELT Often Looks “Underwhelming”
-The core value of ELT is not the “load-then-transform” step by itself—it’s the ability to **push down** heavy transforms into a **cloud data warehouse** that executes them with **columnar storage, vectorized operators, and MPP parallelism**.
+The core value of ELT is not the “load-then-transform” step by itself—it’s the ability to **push down** heavy transforms into a **cloud data warehouse** that executes them with **columnar storage**, **vectorized operators**, and **MPP parallelism**.
 
 On a single local machine, even with Docker + Postgres, you’re bounded by:
 - **Compute**: limited CPU cores; complex JOIN/GROUP BY can saturate a single node.  
@@ -125,7 +130,9 @@ Although this project focuses on ETL/ELT, the deeper lesson is about **thinking 
 - Question the purpose of every assumption.  
 - Treat tools (like AI) as accelerators, not crutches.  
 
-This mindset ensures that future projects—whether in cloud engineering, data pipelines, or other domains—are grounded in clarity, logic, and discipline.
+This mindset ensures that future projects—whether in cloud engineering, data pipelines, or other domains—are grounded in clarity, logic, and discipline.  
+And that is why this file exists separately from the README: to capture the deeper *thinking process* behind the pipeline, not just the deliverables.
+
 
 ---
 
