@@ -34,3 +34,13 @@ while postponing the challenge of connecting to external systems.
 > My choice to use synthetic data was a deliberate learning strategy to isolate the core ETL logic. This allowed me to focus on building a robust pipeline foundation before tackling the complexities of external data sources.
 ---
 
+
+### Next Step: From Mindset to Training
+
+After clarifying the mindset of starting small and avoiding premature scaling,  
+I decided to invest in a **two-week foundational training plan** before Stage 1.  
+
+This plan covers algorithmic fundamentals, Python/SQL fluency, and validation strategies.  
+It ensures that when I start implementation, I’ll be coding with clarity, not guesswork.  
+
+📄 See details here: [00 Foundational Training Plan](../../methodology/en/00_foundational_training_plan.md)
