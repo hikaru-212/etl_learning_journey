@@ -1,13 +1,14 @@
 # From Math to Data Engineering  
 *A Hands-on ETL Learning Journey*
 
-> 🚧 **Status Note (狀態說明)**:  
-> Stage 0 (Why MVP) has been completed ✅, and the project is now moving into Stage 1 (File-based MVP).  
-> Documents and code will continue to be added step by step. Structure may change frequently.  
+> 🚧 **Status Note**  
+> Stage 0 (Why MVP) has been completed ✅.  
+> I’m currently focusing on **foundational programming training**,  
+> following my [Foundational Training Plan](./docs/methodology/en/00_foundational_training_plan.md)  
+> and [Practical Modules Training](./docs/methodology/en/01_practical_modules_training.md).  
 >  
-> Stage 0（為什麼要從 MVP 開始）已完成 ✅，專案目前正邁向 Stage 1（檔案型 MVP）。  
-> 文件與程式會持續補上，架構可能會頻繁變動。  
-
+> Once the core skills are solidified, I’ll move on to **Stage 1 (File-based MVP)**  
+> to begin building the first working ETL flow.
 
 ---
 
@@ -110,8 +111,26 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-## 📖 Curious about the deeper story?  
-👉 Dive into [docs/philosophy.md](./docs/philosophy.md).
+## 🤝 Contributing
+Contributions, feedback, or suggestions are always welcome.  
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details on guidelines and project structure.  
+Even small typo fixes or documentation improvements are appreciated!
+
+---
+
+
+## 📘 Explore the Docs
+
+If you’re curious about the deeper story and thought process behind this project,  
+the `docs/` folder contains a structured record of how everything evolved:
+
+- **[Philosophy](./docs/philosophy.md)** — The core mindset and reasoning model behind every design decision.  
+- **[Insights](./docs/insights/README.md)** — A collection of “Aha!” moments and engineering reflections.  
+- **[Methodology](./docs/methodology/README.md)** — My self-engineering framework, training plans, and meta-learning approach.  
+- **[Learning Journey](./docs/learning_journey/README.md)** — Stage-by-stage documentation of how theory translated into implementation.  
+
+Each section captures a different dimension — from abstract reasoning to concrete execution —  
+together forming the full picture of how *math became engineering practice*.
 
 ---
 ### Connect with me
